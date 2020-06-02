@@ -1,0 +1,53 @@
+.home-wrap{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(236,254,255);
+    background: linear-gradient(90deg, rgba(236,254,255,1) 0%, rgba(229,254,255,1) 100%);
+    font-family: "Lato";
+    padding-top: 35vh;
+    @media screen and (min-width: 768px) {
+        padding-top: 20hv;
+    }
+    .bird-background{
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        bottom: -80px;
+        background-image: url("../../../assets/images/999891.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-color: transparent;
+    }
+    h1{
+        font-size: 60px;
+        font-weight: 300;
+        @media screen and (min-width: 992px) {
+            font-size: 100px;
+        }
+    }
+    h6{
+        letter-spacing: 1px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 300;
+        @media screen and (min-width: 992px) {
+            font-size: 18px;
+        }
+    }
+    a{
+        display: inline-block;
+        background-color: rgb(177, 240, 240);
+        padding: 20px;
+        margin: 40px auto;
+        border-radius: 5px;
+        width: 300px;
+        color: rgb(51, 51, 51);
+        box-shadow: 1px 2px 3px -1px black;
+        &:hover{
+            box-shadow: 1px 2px 1px -1px black;
+        }
+    }
+}
